@@ -259,3 +259,10 @@ footer .right a{
 .text-center{
     padding: 50px 0;
 }
+@media (max-width: 767px) { .content h1{
+		font-size: 50px;
+	} 
+}
+@media (max-width: 767px) { .content p{
+		font-size: 14px;
+	} 
