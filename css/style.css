@@ -259,6 +259,24 @@ footer .right a{
 .text-center{
     padding: 50px 0;
 }
+/*  midea css */
+
+@media (max-width: 767px) { .sm{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	} 
+}
+@media (max-width: 767px) { header .container{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	} 
+}
+@media (max-width: 767px) { .banner{
+		padding-top: 50px;
+	} 
+}
 @media (max-width: 767px) { .content h1{
 		font-size: 50px;
 	} 
@@ -266,3 +284,140 @@ footer .right a{
 @media (max-width: 767px) { .content p{
 		font-size: 14px;
 	} 
+}
+@media (max-width: 767px) { .intro-section p{
+		font-size: 15px;
+		padding: 0;
+	} 
+}
+@media (max-width: 767px) { .intro-section h1{
+		font-size: 25px;
+		font-weight: 500;
+	} 
+}
+@media (max-width: 576px) { .icon-2{
+		margin-top: 50px;
+}
+@media (max-width: 767px) { .icon-3{
+		margin-top: 50px;
+}
+@media (max-width: 767px) { .Portfolio h1{
+		font-size: 25px;
+		font-weight: 500;
+	} 
+}
+@media (max-width: 767px) { .Portfolio p{
+		font-size: 12px;
+	} 
+}
+@media (max-width: 767px) { .contract-form h1{
+		font-size: 25px;
+		font-weight: 500;
+	} 
+}
+@media (max-width: 767px) { .contract-form p{
+		font-size: 12px;
+	} 
+}
+@media (max-width: 767px) { .contract-form input[type="checkbox"]{
+		height: 14px;
+		width: 12px;
+	} 
+}
+@media (max-width: 767px) { .subscribe li{
+		font-size: 12px;
+	} 
+}
+@media (max-width: 767px) { footer{
+		padding: 15px;
+	} 
+}
+@media (max-width: 767px) { footer p{
+		font-size: 12px;
+	} 
+}
+@media (max-width: 767px) { footer p{
+		font-size: 12px;
+	} 
+}
+@media (max-width: 767px) { footer .social a{
+		height: 25px;
+		width: 25px;
+		font-size: 12px;
+	} 
+}
+
+.navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    /* flex-basis: 100%; */
+    -ms-flex-positive: 1;
+    /* flex-grow: 1; */
+    -ms-flex-align: center;
+    /* align-items: center; */
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+    
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    /* color: rgba(0,0,0,.9); */
+    color: wheat;
+    border-bottom: 1px solid white;
+    background: #004EA8;
+    width: 100%;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link :hover {
+    -ms-flex-preferred-size: 100%;
+    /* flex-basis: 100%; */
+    -ms-flex-positive: 1;
+    /* flex-grow: 1; */
+    -ms-flex-align: center;
+    /* align-items: center; */
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+    background: #367FA9;
+    width: 100%;
+}
+.navbar-light .navbar-nav .nav-link {
+    /* color: rgba(0,0,0,.5); */
+    /* color: wheat; */
+    color: wheat;
+    border-bottom: 1px solid white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    /* color: rgba(0,0,0,.5); */
+    /* color: wheat; */
+    color: wheat;
+    background: blue;
+    border-bottom: 1px solid white;
+    transition:  all .4s;
+
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    /* color: rgba(0,0,0,.5); */
+    /* color: wheat; */
+    color: wheat;
+    background: #367FA9;
+    border-bottom: 1px solid white;
+}
+
+.navbar {
+
+    /* padding: .5rem 1rem; */
+    padding: 0;
+}
+header img {
+    vertical-align: middle;
+    border-style: none;
+    padding-left: 20px;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.1);
+    /* padding-right: 21px; */
+    margin-right: 24px;
+}
+
