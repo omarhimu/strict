@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+/*font-family: 'Lato', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #f6f9f9;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: rgba(0,0,0,.9);
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+.navbar {
+    padding: 20px 0;
+}
+.navbar-nav {
+
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.banner{
+    background-image: url(../image/Strict-1.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+}
+.hg{
+    height: 600px;
+}
+.content{
+    text-align: center;
+}
+.content h1{
+    color: white;
+    font-size: 75px;
+}
+.content span{
+    display: inline-block;
+    background: #0099ff;
+    height: 3px;
+    width: 100%;
+}
+.content p{
+    color: white;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+.btn-custom{
+    background: transparent;
+    border: 1px solid #0099ff;
+}
+.btn-custom::hover{
+    background: #0099ff;
+}
+.icon{
+    position: absolute;
+    margin-top: 80px;
+    left: 50%;
+    transform: translate(-50%,-20%);
+    animation: icon-ani 1s linear infinite;
+    animation-direction: alternate;
+}
+.icon i{
+    color: white;
+    font-size: 22px;
+}
+
+@keyframes icon-ani{
+    0%{
+        transform: translate(-50%,0%);
+    }
+    100%{
+        transform: translate(-50%,-100%);
+    }
+}
+.design{
+    color: #f6f9f9;
+    padding: 40px 0px;
+}
+.design h1{
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    font-size: 40px;
+    font-weight: 400;
+}
+.design p{
+    color: #999999;
+    margin: 20px 0;
+    font-size: 18px;
+}
+.feature{
+    padding: 10px 0px;
+}
+.icon-box{ 
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    margin: auto;
+    
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+0,48baff+50,5fc3ff+52,5fc3ff+100 */
+/* background: #48baff; */ /* Old browsers */
+background: -moz-linear-gradient(left,  #48baff 0%, #48baff 50%, #5fc3ff 52%, #5fc3ff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #48baff 0%,#48baff 50%,#5fc3ff 52%,#5fc3ff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #48baff 0%,#48baff 50%,#5fc3ff 52%,#5fc3ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48baff', endColorstr='#5fc3ff',GradientType=1 ); /* IE6-9 */
+
+} 
+.icon-box i{}
+.feature-content{}
+.feature-content h4{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.feature-content p{}
+.showcase{
+    background-color:#f6f9f9;
+    padding: 50px 0px;
+}
+.showcase-content{}
+.showcase-content h2{}
+.showcase-content p{}
+.image{
+    position: relative;
+    margin-bottom: 30px;
+}
+.image::before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 0;
+	top: 0;
+	left: 0;
+	background: #48baff96;
+}
+
+.image:hover::before{
+	 bottom: 100%;
+	 height: 100%;
+
+}
+.showcase-icon{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+	font-size: 20px;
+	opacity: 0;
+	transition: all .4s ease;
+}
+.showcase-icon i{
+	border: 1px solid white;
+	padding: 10px;
+	border-radius: 5px;
+	margin-left: 5px;
+}
+.image:hover .showcase-icon{
+	opacity: 1;
+}
+.contact{
+	background-image: url(../image/Strict-8.png);
+	position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	/* margin-top: 25px; */
+	/* padding-bottom: 60px; */
+	padding: 40px 0px;
+}
+.contact::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background:#2d3950ab;
+}
+.contact-content{
+	color: white;
+	margin: 40px 0;
+	text-align: center;
+
+}
+form input{
+	width: 100%;
+	margin: 10px auto;
+	height: 35px;
+	border-radius: 5px;
+	background: transparent;
+	
+	border: 1px solid #6a6a86;
+	padding: 10px;
+}
+form textarea{
+	 width: 100%;
+	 background: transparent;
+	 border: 1px solid #6a6a86;
+	 border-radius: 5px;
+	 margin: 10px auto;
+	 padding: 10px;
+}
+input[type=checkbox]{
+	height: 12px;
+	width: 15px;
+	margin: 0;
+	margin-right: 5px;
+
+}
+.subscribe ul{
+	list-style: none;
+}
+.subscribe li{
+	float: left;
+	color: white;
+}
+.btn-contact{
+	float: right;
+	margin: 0;
+	color: white;
+	padding: 7px 30px;
+}
+
+footer{
+	padding: 15px;
+}
+footer p{
+    margin-top: 10px;
+    color: #999999;
+}
+
+footer .right{
+	text-align: right;
+}
+footer .right a{
+	height: 37px;
+	width: 37px;
+	display: inline-block;	
+	background :#15a4fa;
+	font-size: 18px;
+	color: #ffff;
+	text-align: center;
+	border-radius: 3px;
+	padding: 5px;
+}
+.nav-item{
+	margin-right: 10px;
+}
+.text-center{
+    padding: 50px 0;
+}
