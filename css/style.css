@@ -319,8 +319,7 @@ footer .right a{
 		font-size: 12px;
 	} 
 }
-	@media (max-width: 576px)
-@media (max-width: 767px)
+
 @media (max-width: 767px)
 footer {
     padding: 15px;
@@ -338,14 +337,12 @@ footer {
 		padding: 15px;
 	} 
 }
-@media (max-width: 576px)
-@media (max-width: 767px)
+
 @media (max-width: 767px)
 footer p {
     font-size: 12px;
 }
-@media (max-width: 576px)
-@media (max-width: 767px)
+
 @media (max-width: 767px)
 footer .right a {
     height: 25px;
