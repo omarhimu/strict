@@ -259,93 +259,100 @@ footer .right a{
 .text-center{
     padding: 50px 0;
 }
+
+@media (max-width: 767px) { .content h1{
+    font-size: 50px;
+} 
+}
+@media (max-width: 767px) { .content p{
+    font-size: 14px;
+} 
 /*  midea css */
 
 @media (max-width: 767px) { .sm{
-		width: 100%;
-		margin: 0;
-		padding: 0;
-	} 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+} 
 }
 @media (max-width: 767px) { header .container{
-		width: 100%;
-		margin: 0;
-		padding: 0;
-	} 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+} 
 }
 @media (max-width: 767px) { .banner{
-		padding-top: 50px;
-	} 
+    padding-top: 50px;
+} 
 }
 @media (max-width: 767px) { .content h1{
-		font-size: 50px;
-	} 
+    font-size: 50px;
+} 
 }
 @media (max-width: 767px) { .content p{
-		font-size: 14px;
-	} 
+    font-size: 14px;
+} 
 }
 @media (max-width: 767px) { .intro-section p{
-		font-size: 15px;
-		padding: 0;
-	} 
+    font-size: 15px;
+    padding: 0;
+} 
 }
 @media (max-width: 767px) { .intro-section h1{
-		font-size: 25px;
-		font-weight: 500;
-	} 
+    font-size: 25px;
+    font-weight: 500;
+} 
 }
 @media (max-width: 576px) { .icon-2{
-		margin-top: 50px;
+    margin-top: 50px;
 }
 @media (max-width: 767px) { .icon-3{
-		margin-top: 50px;
+    margin-top: 50px;
 }
 @media (max-width: 767px) { .Portfolio h1{
-		font-size: 25px;
-		font-weight: 500;
-	} 
+    font-size: 25px;
+    font-weight: 500;
+} 
 }
 @media (max-width: 767px) { .Portfolio p{
-		font-size: 12px;
-	} 
+    font-size: 12px;
+} 
 }
 @media (max-width: 767px) { .contract-form h1{
-		font-size: 25px;
-		font-weight: 500;
-	} 
+    font-size: 25px;
+    font-weight: 500;
+} 
 }
 @media (max-width: 767px) { .contract-form p{
-		font-size: 12px;
-	} 
+    font-size: 12px;
+} 
 }
-
 @media (max-width: 767px)
 footer {
-    padding: 15px;
+padding: 15px;
 }
 @media (max-width: 767px) { .contract-form input[type="checkbox"]{
-		height: 14px;
-		width: 12px;
-	} 
+    height: 14px;
+    width: 12px;
+} 
 }
 @media (max-width: 767px) { .subscribe li{
-		font-size: 12px;
-	} 
+    font-size: 12px;
+} 
 }
 @media (max-width: 767px) { footer{
-		padding: 15px;
-	} 
+    padding: 15px;
+} 
 }
-
 @media (max-width: 767px)
-footer p {
-    font-size: 12px;
+{footer p {
+font-size: 12px;
 }
-
+}
 @media (max-width: 767px)
-footer .right a {
-    height: 25px;
-    width: 25px;
-    font-size: 12px;
+{footer .right a {
+height: 25px;
+width: 25px;
+font-size: 12px;
+}
 }
